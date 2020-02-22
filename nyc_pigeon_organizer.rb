@@ -3,6 +3,10 @@ def nyc_pigeon_organizer(data)
   data.each_key {|attribute|
     puts "*********"
     pp attribute
+    attribute.each_key {|value|
+      puts "****************"
+      pp value
+    }
   }
 
   newHash
