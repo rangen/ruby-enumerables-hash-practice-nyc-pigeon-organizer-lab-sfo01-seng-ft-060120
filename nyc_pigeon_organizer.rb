@@ -9,5 +9,5 @@ newHash = {}
     }
   }
 
-  pp newHash
+  puts "Hash: #{newHash}""
 end
