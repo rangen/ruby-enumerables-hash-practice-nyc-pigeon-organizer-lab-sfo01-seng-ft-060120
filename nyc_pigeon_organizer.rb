@@ -3,11 +3,9 @@ newHash = {}
   data.each_pair {|attribute, value|
     value.each_pair {|value, owner|
         owner.each {|name|
-          puts "Value: #{value}"
+          puts "#{name}   #{attribute.to_s}    #{value}"
           newHash[name][attribute.to_s] << value
         }
     }
   }
-
-  puts "Hash: #{newHash}"
 end
