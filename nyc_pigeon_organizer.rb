@@ -6,7 +6,7 @@ newHash = Hash.new
           newHash[name] = Hash.new if !newHash[name]
           newHash[name][attribute] = Array.new if !newHash[name][attribute]
 
-          newHash[name][attribute] << value
+          newHash[name][attribute] << value.to_s
         }
     }
   }
