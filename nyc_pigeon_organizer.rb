@@ -11,6 +11,5 @@ newHash = Hash.new
     }
   }
   pp newHash
-  puts "------------------------"
   newHash
 end
