@@ -10,6 +10,8 @@ newHash = Hash.new
         }
     }
   }
+  puts; puts; puts; puts; puts; puts; puts;
   pp newHash
+  puts; puts; puts; puts; puts; puts; puts;
   newHash
 end
