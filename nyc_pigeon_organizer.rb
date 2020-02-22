@@ -8,5 +8,5 @@ newHash = {}
     }
   }
 
-  newHash
+  pp newHash
 end
