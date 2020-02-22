@@ -1,9 +1,7 @@
 def nyc_pigeon_organizer(data)
   newHash = data.reduce({}) {|newHash, attribute|
-    attribute.reduce({}) {|newHash, value|
-    puts "Value: #{value}"
-
-    }
+    pp attribute
+    newHash
   }
 
   newHash
