@@ -1,7 +1,8 @@
 def nyc_pigeon_organizer(data)
   newHash = {}
   data.each_key {|attribute|
-    #pp attribute
+    puts "*********"
+    pp attribute
   }
 
   newHash
